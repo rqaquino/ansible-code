@@ -5,7 +5,7 @@ on:
 
 jobs:
   generate-inventory:
-    runs-on: [ ronald-master ]
+    runs-on: [ self-hosted ]
 
     steps:
      
