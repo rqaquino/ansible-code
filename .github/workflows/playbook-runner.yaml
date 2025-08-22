@@ -9,7 +9,7 @@ on:
 
 jobs:
   ansible-playbook:
-    runs-on: [ ansible-master ] 
+    runs-on: [ self-hosted ] 
 
     steps:
       - uses: actions/checkout@v4
